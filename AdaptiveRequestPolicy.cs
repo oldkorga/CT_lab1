@@ -2,7 +2,7 @@ using RRC.Abstractions;
 
 namespace RRC.Student;
 
-public sealed class AdaptiveRequestPolicy : IRequestPolicy
+public sealed class DirovskijAdaptiveRequestPolicy : IRequestPolicy
 {
     private const double TargetQuantile = 0.90;
     private const double SafetyFactor = 1.1;
